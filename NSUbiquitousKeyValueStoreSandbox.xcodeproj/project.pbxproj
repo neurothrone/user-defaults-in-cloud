@@ -7,22 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FBDE2C4294F466D000A7232 /* NSUbiquitousKeyValueStoreSandboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBDE2C3294F466D000A7232 /* NSUbiquitousKeyValueStoreSandboxApp.swift */; };
+		2FBDE2C4294F466D000A7232 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBDE2C3294F466D000A7232 /* AppMain.swift */; };
 		2FBDE2C6294F466D000A7232 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBDE2C5294F466D000A7232 /* ContentView.swift */; };
 		2FBDE2C8294F466E000A7232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBDE2C7294F466E000A7232 /* Assets.xcassets */; };
 		2FBDE2CB294F466E000A7232 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBDE2CA294F466E000A7232 /* Preview Assets.xcassets */; };
+		2FBDE2D3294F6D6F000A7232 /* CloudUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBDE2D2294F6D6F000A7232 /* CloudUserDefaults.swift */; };
+		2FBDE2D5294F6DC9000A7232 /* WeeklyGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBDE2D4294F6DC9000A7232 /* WeeklyGoal.swift */; };
+		2FBDE2DE294F7AAD000A7232 /* NSUbiquitousKeyValueStoreSandbox.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2FBDE2DD294F7AAD000A7232 /* NSUbiquitousKeyValueStoreSandbox.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2FBDE2E7294F7AAE000A7232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBDE2E6294F7AAE000A7232 /* Assets.xcassets */; };
+		2FBDE2EA294F7AAE000A7232 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBDE2E9294F7AAE000A7232 /* Preview Assets.xcassets */; };
+		2FBDE2F2294F7AC4000A7232 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBDE2C3294F466D000A7232 /* AppMain.swift */; };
+		2FBDE2F3294F7AD1000A7232 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBDE2C5294F466D000A7232 /* ContentView.swift */; };
+		2FBDE2F4294F7ADB000A7232 /* CloudUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBDE2D2294F6D6F000A7232 /* CloudUserDefaults.swift */; };
+		2FBDE2F5294F7ADB000A7232 /* WeeklyGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBDE2D4294F6DC9000A7232 /* WeeklyGoal.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2FBDE2DF294F7AAD000A7232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FBDE2B8294F466D000A7232 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBDE2DC294F7AAD000A7232;
+			remoteInfo = "WatchOnlyApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2FBDE2EE294F7AAE000A7232 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2FBDE2DE294F7AAD000A7232 /* NSUbiquitousKeyValueStoreSandbox.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		2FBDE2C0294F466D000A7232 /* NSUbiquitousKeyValueStoreSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSUbiquitousKeyValueStoreSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FBDE2C3294F466D000A7232 /* NSUbiquitousKeyValueStoreSandboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSUbiquitousKeyValueStoreSandboxApp.swift; sourceTree = "<group>"; };
+		2FBDE2C0294F466D000A7232 /* iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBDE2C3294F466D000A7232 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		2FBDE2C5294F466D000A7232 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2FBDE2C7294F466E000A7232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FBDE2CA294F466E000A7232 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FBDE2D1294F46E0000A7232 /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Entitlements.entitlements; sourceTree = "<group>"; };
+		2FBDE2D2294F6D6F000A7232 /* CloudUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudUserDefaults.swift; sourceTree = "<group>"; };
+		2FBDE2D4294F6DC9000A7232 /* WeeklyGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyGoal.swift; sourceTree = "<group>"; };
+		2FBDE2D8294F7AAD000A7232 /* WatchOnlyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchOnlyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBDE2DD294F7AAD000A7232 /* NSUbiquitousKeyValueStoreSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSUbiquitousKeyValueStoreSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBDE2E6294F7AAE000A7232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FBDE2E9294F7AAE000A7232 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FBDE30D294F7C24000A7232 /* Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Watch App.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2FBDE2BD294F466D000A7232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBDE2DA294F7AAD000A7232 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,7 +83,9 @@
 		2FBDE2B7294F466D000A7232 = {
 			isa = PBXGroup;
 			children = (
-				2FBDE2C2294F466D000A7232 /* NSUbiquitousKeyValueStoreSandbox */,
+				2FBDE309294F7BD2000A7232 /* Shared */,
+				2FBDE2C2294F466D000A7232 /* iOS App */,
+				2FBDE2E1294F7AAD000A7232 /* Watch App */,
 				2FBDE2C1294F466D000A7232 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +93,21 @@
 		2FBDE2C1294F466D000A7232 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2FBDE2C0294F466D000A7232 /* NSUbiquitousKeyValueStoreSandbox.app */,
+				2FBDE2C0294F466D000A7232 /* iOS App.app */,
+				2FBDE2D8294F7AAD000A7232 /* WatchOnlyApp.app */,
+				2FBDE2DD294F7AAD000A7232 /* NSUbiquitousKeyValueStoreSandbox.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2FBDE2C2294F466D000A7232 /* NSUbiquitousKeyValueStoreSandbox */ = {
+		2FBDE2C2294F466D000A7232 /* iOS App */ = {
 			isa = PBXGroup;
 			children = (
-				2FBDE2C3294F466D000A7232 /* NSUbiquitousKeyValueStoreSandboxApp.swift */,
-				2FBDE2C5294F466D000A7232 /* ContentView.swift */,
+				2FBDE2C3294F466D000A7232 /* AppMain.swift */,
 				2FBDE2C7294F466E000A7232 /* Assets.xcassets */,
 				2FBDE2C9294F466E000A7232 /* Preview Content */,
 			);
-			path = NSUbiquitousKeyValueStoreSandbox;
+			path = "iOS App";
 			sourceTree = "<group>";
 		};
 		2FBDE2C9294F466E000A7232 /* Preview Content */ = {
@@ -67,12 +118,41 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2FBDE2E1294F7AAD000A7232 /* Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				2FBDE30D294F7C24000A7232 /* Watch App.entitlements */,
+				2FBDE2E6294F7AAE000A7232 /* Assets.xcassets */,
+				2FBDE2E8294F7AAE000A7232 /* Preview Content */,
+			);
+			path = "Watch App";
+			sourceTree = "<group>";
+		};
+		2FBDE2E8294F7AAE000A7232 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FBDE2E9294F7AAE000A7232 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FBDE309294F7BD2000A7232 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2FBDE2C5294F466D000A7232 /* ContentView.swift */,
+				2FBDE2D4294F6DC9000A7232 /* WeeklyGoal.swift */,
+				2FBDE2D2294F6D6F000A7232 /* CloudUserDefaults.swift */,
+				2FBDE2D1294F46E0000A7232 /* Entitlements.entitlements */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2FBDE2BF294F466D000A7232 /* NSUbiquitousKeyValueStoreSandbox */ = {
+		2FBDE2BF294F466D000A7232 /* iOS App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FBDE2CE294F466E000A7232 /* Build configuration list for PBXNativeTarget "NSUbiquitousKeyValueStoreSandbox" */;
+			buildConfigurationList = 2FBDE2CE294F466E000A7232 /* Build configuration list for PBXNativeTarget "iOS App" */;
 			buildPhases = (
 				2FBDE2BC294F466D000A7232 /* Sources */,
 				2FBDE2BD294F466D000A7232 /* Frameworks */,
@@ -82,9 +162,43 @@
 			);
 			dependencies = (
 			);
-			name = NSUbiquitousKeyValueStoreSandbox;
+			name = "iOS App";
 			productName = NSUbiquitousKeyValueStoreSandbox;
-			productReference = 2FBDE2C0294F466D000A7232 /* NSUbiquitousKeyValueStoreSandbox.app */;
+			productReference = 2FBDE2C0294F466D000A7232 /* iOS App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FBDE2D7294F7AAD000A7232 /* WatchOnlyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBDE2EF294F7AAE000A7232 /* Build configuration list for PBXNativeTarget "WatchOnlyApp" */;
+			buildPhases = (
+				2FBDE2D6294F7AAD000A7232 /* Resources */,
+				2FBDE2EE294F7AAE000A7232 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FBDE2E0294F7AAD000A7232 /* PBXTargetDependency */,
+			);
+			name = WatchOnlyApp;
+			productName = WatchOnlyApp;
+			productReference = 2FBDE2D8294F7AAD000A7232 /* WatchOnlyApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		2FBDE2DC294F7AAD000A7232 /* Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBDE2EB294F7AAE000A7232 /* Build configuration list for PBXNativeTarget "Watch App" */;
+			buildPhases = (
+				2FBDE2D9294F7AAD000A7232 /* Sources */,
+				2FBDE2DA294F7AAD000A7232 /* Frameworks */,
+				2FBDE2DB294F7AAD000A7232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch App";
+			productName = "WatchOnlyApp Watch App";
+			productReference = 2FBDE2DD294F7AAD000A7232 /* NSUbiquitousKeyValueStoreSandbox.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,6 +212,12 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					2FBDE2BF294F466D000A7232 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					2FBDE2D7294F7AAD000A7232 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					2FBDE2DC294F7AAD000A7232 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -115,7 +235,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2FBDE2BF294F466D000A7232 /* NSUbiquitousKeyValueStoreSandbox */,
+				2FBDE2BF294F466D000A7232 /* iOS App */,
+				2FBDE2DC294F7AAD000A7232 /* Watch App */,
+				2FBDE2D7294F7AAD000A7232 /* WatchOnlyApp */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +252,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2FBDE2D6294F7AAD000A7232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBDE2DB294F7AAD000A7232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBDE2EA294F7AAE000A7232 /* Preview Assets.xcassets in Resources */,
+				2FBDE2E7294F7AAE000A7232 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +276,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FBDE2C6294F466D000A7232 /* ContentView.swift in Sources */,
-				2FBDE2C4294F466D000A7232 /* NSUbiquitousKeyValueStoreSandboxApp.swift in Sources */,
+				2FBDE2C4294F466D000A7232 /* AppMain.swift in Sources */,
+				2FBDE2D3294F6D6F000A7232 /* CloudUserDefaults.swift in Sources */,
+				2FBDE2D5294F6DC9000A7232 /* WeeklyGoal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBDE2D9294F7AAD000A7232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBDE2F3294F7AD1000A7232 /* ContentView.swift in Sources */,
+				2FBDE2F2294F7AC4000A7232 /* AppMain.swift in Sources */,
+				2FBDE2F4294F7ADB000A7232 /* CloudUserDefaults.swift in Sources */,
+				2FBDE2F5294F7ADB000A7232 /* WeeklyGoal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FBDE2E0294F7AAD000A7232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FBDE2DC294F7AAD000A7232 /* Watch App */;
+			targetProxy = 2FBDE2DF294F7AAD000A7232 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2FBDE2CC294F466E000A7232 /* Debug */ = {
@@ -264,12 +423,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shared/Entitlements.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NSUbiquitousKeyValueStoreSandbox/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS App/Preview Content\"";
 				DEVELOPMENT_TEAM = 4BP826FJGX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NSUbiquitousKeyValueStoreSandbox;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,6 +443,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.neurothrone.NSUbiquitousKeyValueStoreSandbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,12 +457,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shared/Entitlements.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NSUbiquitousKeyValueStoreSandbox/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS App/Preview Content\"";
 				DEVELOPMENT_TEAM = 4BP826FJGX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NSUbiquitousKeyValueStoreSandbox;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,9 +477,102 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.neurothrone.NSUbiquitousKeyValueStoreSandbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FBDE2EC294F7AAE000A7232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Watch App/Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4BP826FJGX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.neurothrone.NSUbiquitousKeyValueStoreSandbox.watchkitapp;
+				PRODUCT_NAME = NSUbiquitousKeyValueStoreSandbox;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		2FBDE2ED294F7AAE000A7232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Watch App/Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4BP826FJGX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.neurothrone.NSUbiquitousKeyValueStoreSandbox.watchkitapp;
+				PRODUCT_NAME = NSUbiquitousKeyValueStoreSandbox;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		2FBDE2F0294F7AAE000A7232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BP826FJGX;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchOnlyApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.neurothrone.NSUbiquitousKeyValueStoreSandbox-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2FBDE2F1294F7AAE000A7232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BP826FJGX;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchOnlyApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.neurothrone.NSUbiquitousKeyValueStoreSandbox-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -329,11 +588,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FBDE2CE294F466E000A7232 /* Build configuration list for PBXNativeTarget "NSUbiquitousKeyValueStoreSandbox" */ = {
+		2FBDE2CE294F466E000A7232 /* Build configuration list for PBXNativeTarget "iOS App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FBDE2CF294F466E000A7232 /* Debug */,
 				2FBDE2D0294F466E000A7232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBDE2EB294F7AAE000A7232 /* Build configuration list for PBXNativeTarget "Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBDE2EC294F7AAE000A7232 /* Debug */,
+				2FBDE2ED294F7AAE000A7232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBDE2EF294F7AAE000A7232 /* Build configuration list for PBXNativeTarget "WatchOnlyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBDE2F0294F7AAE000A7232 /* Debug */,
+				2FBDE2F1294F7AAE000A7232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
